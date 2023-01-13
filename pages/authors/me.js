@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import Head from 'next/head';
 
-export default function FirstPost() {
+export default function Me() {
     return (
       <>
-        <Head>
-          <title>First Post</title>
-        </Head>
-        <h1>First Post</h1>
+      <Head>
+        <title>Our authors</title>
+      </Head>
+        <h1>Jefferson Nah Jr.</h1>
         <h2>
           <Link href="/">Back to home</Link>
         </h2>
